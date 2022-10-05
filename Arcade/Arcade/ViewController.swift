@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func touchedDdongGameButton(_ sender: Any) {
+        let vc = AvoidDdongViewController()
+        present(vc, animated: false)
+    }
 }
-

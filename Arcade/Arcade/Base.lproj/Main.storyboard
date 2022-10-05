@@ -33,6 +33,9 @@
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <size key="titleShadowOffset" width="-2" height="-2"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="💩 피하기"/>
+                                                <connections>
+                                                    <action selector="touchedDdongGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="chs-vN-y1v"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJV-cf-JUL">
                                                 <rect key="frame" x="94.5" y="0.0" width="84.5" height="31"/>

@@ -16,6 +16,7 @@
 		9812773A28EDE30100B6EB71 /* ArcadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812773928EDE30100B6EB71 /* ArcadeTests.swift */; };
 		9812774428EDE30100B6EB71 /* ArcadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812774328EDE30100B6EB71 /* ArcadeUITests.swift */; };
 		9812774628EDE30100B6EB71 /* ArcadeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812774528EDE30100B6EB71 /* ArcadeUITestsLaunchTests.swift */; };
+		9812775428EDF27400B6EB71 /* AvoidDdongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812775328EDF27400B6EB71 /* AvoidDdongViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9812773F28EDE30100B6EB71 /* ArcadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9812774328EDE30100B6EB71 /* ArcadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeUITests.swift; sourceTree = "<group>"; };
 		9812774528EDE30100B6EB71 /* ArcadeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9812775328EDF27400B6EB71 /* AvoidDdongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidDdongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9812772128EDE30000B6EB71 /* Arcade */ = {
 			isa = PBXGroup;
 			children = (
+				9812775228EDF25B00B6EB71 /* AvoidDdong */,
 				9812772228EDE30000B6EB71 /* AppDelegate.swift */,
 				9812772428EDE30000B6EB71 /* SceneDelegate.swift */,
 				9812772628EDE30000B6EB71 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				9812774528EDE30100B6EB71 /* ArcadeUITestsLaunchTests.swift */,
 			);
 			path = ArcadeUITests;
+			sourceTree = "<group>";
+		};
+		9812775228EDF25B00B6EB71 /* AvoidDdong */ = {
+			isa = PBXGroup;
+			children = (
+				9812775328EDF27400B6EB71 /* AvoidDdongViewController.swift */,
+			);
+			path = AvoidDdong;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				9812772728EDE30000B6EB71 /* ViewController.swift in Sources */,
 				9812772328EDE30000B6EB71 /* AppDelegate.swift in Sources */,
 				9812772528EDE30000B6EB71 /* SceneDelegate.swift in Sources */,
+				9812775428EDF27400B6EB71 /* AvoidDdongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
